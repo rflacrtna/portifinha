@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 14px;
+    background:#FDFDFD;
+    scroll-behavior: smooth;
+    font-family: 'Montserrat', sans-serif;
+    overflow:hidden;  
+    background-image: url(imagem/Group\ 38\ \(1\).svg);
+}
+
+p{
+    width: 22%;
+    text-align: right;
+    display: block;
+    position: absolute;
+    margin-left:72%;
+    margin-top:-15%;
+    color: #4d4d4d;
+}
+a{
+    text-decoration: none;  
+}
+.container{
+    width: 90%;
+    max-width: 120rem;  
+      
+}
+header{
+    height: 15vh;    
+    display: block;
+}
+.logo h5{
+    width: 30vh;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    position: fixed;
+    color:#424075;
+    margin-left:5%;  
+    top:7vh;
+    font-weight: bold;  
+    text-transform: uppercase; 
+ }
+
+nav {
+    display:flex;
+    margin-left:85%;  
+    margin-top:2rem;
+    position:fixed;
+    top:3vh;
+    z-index:999;
+}
+.nav-link{ 
+    display:flex;
+    justify-content: space-around;   
+    width:50px;     
+}
+.nav-link a:hover{
+    color: #FF6666;
+}
+.nav-link a{
+    color:#424075;
+    text-decoration:none;
+    font-size:12px;
+    display:absolute;
+    font-weight: bold;
+    text-transform: uppercase; 
+    text-decoration:none  
+}
+.nav-link a:hover{
+    color: #FF6666;
+}
+.nav-link li{
+    list-style:none;
+}
+
+.main-text h6{
+    width: 50%;
+   position: absolute;
+left: 4.75%;
+right: 83.61%;
+top: 78.67%;
+bottom: 18.47%;    
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    letter-spacing: -0.02em;
+    text-transform: uppercase;    
+    color: #4D4D4D;    
+}
+.main-text img{
+    position: absolute;
+width: 35%;
+left: 55%;
+top: 270px;
+}
+.social-media h6{
+    position: absolute;
+left: 4.75%;
+right: 90.27%;
+top: 85%;
+bottom: 11.74%;    
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    padding-inline: 0.5rem;    
+    /* identical to box height */    
+    letter-spacing: -0.02em;    
+    color: #484075;    
+}
+.social-media h5{ 
+    position: absolute;
+    left: 10.72%;
+    right: 84.16%;
+    top: 85%;
+    bottom: 11.74%;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */    
+    letter-spacing: -0.02em;    
+    color: #484075;    
+}
+.item1 .containerfluid{
+    width: 100%;
+    height: 120vh;
+    background-color: #FF6666;
+}
+.item1 .item2 .item3 img{
+    position: absolute;
+    display: inline-block;
+}
+

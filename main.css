@@ -95,11 +95,11 @@ bottom: 18.47%;
     text-transform: uppercase;    
     color: #4D4D4D;    
 }
-.main-text img{
+.main-text svg{
     position: absolute;
 width: 35%;
 left: 55%;
-top: 270px;
+top: 25%;
 }
 .social-media h6{
     position: absolute;
